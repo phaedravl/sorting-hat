@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    margin: auto;
+    font-family: 'papyrus', Times, serif;
+    color: white;
+    background-color: black;
+}
+
+.buttons{
+    width: 300px;
+    height: 70px;
+    background-color: gold;
+    margin: auto;
+    font-size: medium;
+    /*font-weight: bold;*/
+    font-family: 'papyrus', Times, serif;
+}
+
+.photo{
+    width: 230px;
+    height: 250px;
+    background-image: url(../images/housespic.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons:hover{
+    background-color: orangered;
+    width: 300px;
+    height: 70px;
+    margin: auto;
+    font-size: medium;
+    /*font-weight: bold;*/
+    font-family: 'papyrus', Times, serif;
+}
+
+.result{
+    width: 300px;
+    height: 70px;
+    background-color: gold;
+    margin: auto;
+    font-size: medium;
+    /*font-weight: bold;*/
+    font-family: 'papyrus', Times, serif;
+    color: black;
+    text-align: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
